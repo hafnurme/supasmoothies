@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --secondary: #fdff00;
+}
+body {
+  font-family: Poppins;
+  background-color: #f3f3ed;
+}
+
+.card {
+  /* max-width: 360px; */
+  border: 2px solid rgb(66, 66, 66);
+  padding: 1rem;
+  /* box-shadow: 0px 2px 4px rgb(196, 196, 196); */
+  border-radius: 5px;
+  /* margin: 1rem 0; */
+  background-color: white;
+}
+
+.form-control {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.form-control input {
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
+  outline: none;
+  border: 2px solid rgb(66, 66, 66);
+  font-size: 16px;
+  background-color: #ebebeb;
+}
+
+.form-control textarea {
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  outline: none;
+  line-height: 1.5rem;
+  font-family: Poppins;
+  font-size: 16px;
+  border: 2px solid rgb(66, 66, 66);
+  resize: none;
+  height: 6em;
+  background-color: #ebebeb;
+}
+.button {
+  padding: 0.75rem 1rem;
+  background-color: var(--secondary);
+  outline: none;
+  border: 2px solid rgb(66, 66, 66);
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Poppins;
+}
